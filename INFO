@@ -1,0 +1,9 @@
+title: IO4-LEDStripDriver
+project: IO4-LEDStripDriver
+designer: John Plocher
+fabricated: yes
+fab_date: 2020-07
+image_path:
+status: released
+release: yes
+tags: [eagle, SPCoast, I2C, Lighting, Appliance]
