@@ -8754,10 +8754,9 @@ Standard 8.5x11 US Letter frame</description>
 <plain>
 <text x="149.86" y="25.4" size="3.81" layer="97">IO4 LED Strip Driver</text>
 <text x="152.908" y="6.35" size="3.81" layer="97">John Plocher</text>
-<text x="235.458" y="6.604" size="3.81" layer="97">2.0b</text>
+<text x="235.458" y="6.604" size="3.81" layer="97">1.0</text>
 <text x="147.32" y="38.1" size="1.6764" layer="102">Drives 2x RGB strips and 2x White strips with a 12v/15A power supply
-(For backdrop and valence controlled lighting)
-v2.0b: default address=0, silkscreen changes</text>
+(For backdrop and valence controlled lighting)</text>
 <text x="147.32" y="118.11" size="2.54" layer="91">+
 R
 G
