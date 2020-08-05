@@ -13,18 +13,18 @@
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="2" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="23" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="29" fill="1" visible="no" active="no"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="19" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="17" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="30" fill="1" visible="no" active="no"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="63" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="34" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="56" fill="1" visible="no" active="no"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
@@ -37,18 +37,18 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
+<layer number="40" name="bKeepout" color="3" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="no"/>
+<layer number="42" name="bRestrict" color="3" fill="10" visible="no" active="no"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="44" name="Drills" color="16" fill="1" visible="no" active="no"/>
+<layer number="45" name="Holes" color="35" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="50" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="21" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="24" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="48" fill="1" visible="no" active="no"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="24" fill="1" visible="no" active="no"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -1512,13 +1512,6 @@
 <wire x1="1.118" y1="-1.981" x2="1.422" y2="-1.981" width="0.1524" layer="21"/>
 <wire x1="-0.152" y1="-1.981" x2="0.152" y2="-1.981" width="0.1524" layer="21"/>
 <wire x1="-1.422" y1="-1.981" x2="-1.118" y2="-1.981" width="0.1524" layer="21"/>
-</package>
-<package name="MOUNTINGHOLE">
-<hole x="0" y="0" drill="3.6"/>
-<circle x="0" y="0" radius="2.286" width="0.6096" layer="1"/>
-<circle x="0" y="0" radius="3.048" width="0.8128" layer="41"/>
-<circle x="0" y="0" radius="3.048" width="0.8128" layer="42"/>
-<circle x="0" y="0" radius="2.286" width="0.6096" layer="16"/>
 </package>
 <package name="1206-RES">
 <wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
@@ -3812,6 +3805,12 @@ Molex polarized connector foot print use with: PRT-08233 with associated crimp p
 <text x="-1.397" y="-7.239" size="0.8128" layer="21">3</text>
 <text x="-4.064" y="-7.239" size="0.8128" layer="21">4</text>
 </package>
+<package name="FIDUCIAL_1MM">
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="0" y="0" radius="1" width="0.127" layer="1"/>
+<circle x="0" y="0" radius="0.45" width="1.3" layer="29"/>
+<circle x="0" y="0" radius="1.14" width="0.127" layer="41"/>
+</package>
 </packages>
 <symbols>
 <symbol name="BOARD-DIN27X40">
@@ -3925,13 +3924,6 @@ Boilerplate</text>
 <pin name="A" x="5.08" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="B" x="5.08" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
-<symbol name="MOUNTINGHOLE">
-<circle x="0" y="0" radius="3.5921" width="0.6096" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
-<text x="-10.16" y="0" size="1.27" layer="95">&gt;NAME</text>
-</symbol>
 <symbol name="RESISTOR">
 <wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.1524" layer="94"/>
 <wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.1524" layer="94"/>
@@ -3996,6 +3988,10 @@ Boilerplate</text>
 <pin name="6" x="-2.54" y="-7.62" visible="pad" length="short" direction="pwr"/>
 <text x="2.032" y="4.318" size="1.778" layer="94">+5v</text>
 <text x="2.032" y="-8.382" size="1.778" layer="94">Gnd</text>
+</symbol>
+<symbol name="DOT">
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+<text x="-3.175" y="1.27" size="1.778" layer="95" rot="R180">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -4735,19 +4731,6 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </device>
 </devices>
 </deviceset>
-<deviceset name="MOUNTINGHOLE">
-<description>Mounting hole with top and bottom copper and stop rings</description>
-<gates>
-<gate name="MT1" symbol="MOUNTINGHOLE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="MOUNTINGHOLE">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="R*" prefix="R" uservalue="yes">
 <description>Resistor
 Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (small) resistors.</description>
@@ -4908,6 +4891,20 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <connect gate="J" pin="5" pad="5 5@1"/>
 <connect gate="J" pin="6" pad="6 6@1"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FIDUCIAL">
+<description>For use by pick and place machines to calibrate the vision/machine, 1mm
+By microbuilder.eu&lt;/p&gt;</description>
+<gates>
+<gate name="FID1" symbol="DOT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FIDUCIAL_1MM">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -8718,10 +8715,10 @@ Standard 8.5x11 US Letter frame</description>
 </class>
 </classes>
 <parts>
-<part name="BOARD1" library="SPCoast" deviceset="BOARD" device="80X100-TEMPLATE"/>
+<part name="BOARD1" library="SPCoast" deviceset="BOARD" device="80X100" value="BOARD80X100"/>
 <part name="FRAME2" library="MCP" deviceset="FRAME-LETTER" device=""/>
 <part name="OSHW1" library="SparkFun" deviceset="OSHW-LOGO" device="L" value="OSHW-LOGOL"/>
-<part name="C5" library="SPCoast" deviceset="CAP-POL*" device="0810" value="150uF"/>
+<part name="C5" library="SPCoast" deviceset="CAP-POL*" device="0810" value="220uF"/>
 <part name="P+2" library="SPCoast" deviceset="+12V" device=""/>
 <part name="P+4" library="SPCoast" deviceset="+12V" device=""/>
 <part name="Q3" library="SPCoast" deviceset="MOSFET-N-*-?" device="SO8" value="DMN4468"/>
@@ -8731,10 +8728,6 @@ Standard 8.5x11 US Letter frame</description>
 <part name="V29" library="supply2" deviceset="GND" device=""/>
 <part name="CON3" library="SPCoast" deviceset="CONNECTOR-M04" device="5.08"/>
 <part name="POWER" library="SPCoast" deviceset="CONNECTOR-M02" device="MSTBA2"/>
-<part name="U$1" library="SPCoast" deviceset="MOUNTINGHOLE" device=""/>
-<part name="U$2" library="SPCoast" deviceset="MOUNTINGHOLE" device=""/>
-<part name="U$4" library="SPCoast" deviceset="MOUNTINGHOLE" device=""/>
-<part name="U$3" library="SPCoast" deviceset="MOUNTINGHOLE" device=""/>
 <part name="R5" library="SPCoast" deviceset="R*" device="0603-RES" value="10k"/>
 <part name="R3" library="SPCoast" deviceset="R*" device="0603-RES" value="10k"/>
 <part name="R4" library="SPCoast" deviceset="R*" device="0603-RES" value="10k"/>
@@ -8748,6 +8741,8 @@ Standard 8.5x11 US Letter frame</description>
 <part name="P+6" library="SPCoast" deviceset="+12V" device=""/>
 <part name="P+8" library="SPCoast" deviceset="+12V" device=""/>
 <part name="CON8" library="SPCoast" deviceset="CONNECTOR-M04" device="5.08"/>
+<part name="FID1" library="SPCoast" deviceset="FIDUCIAL" device=""/>
+<part name="FID2" library="SPCoast" deviceset="FIDUCIAL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8785,13 +8780,9 @@ B</text>
 <instance part="Q2" gate="Q" x="109.22" y="121.92" rot="R270"/>
 <instance part="Q1" gate="Q" x="109.22" y="93.98" rot="R270"/>
 <instance part="Q7" gate="Q" x="109.22" y="66.04" rot="R270"/>
-<instance part="V29" gate="GND" x="96.52" y="66.04" rot="R270"/>
+<instance part="V29" gate="GND" x="99.06" y="63.5"/>
 <instance part="CON3" gate="J" x="139.7" y="124.46" rot="R180"/>
 <instance part="POWER" gate="J" x="17.78" y="73.66"/>
-<instance part="U$1" gate="MT1" x="139.7" y="5.08" rot="R270"/>
-<instance part="U$2" gate="MT1" x="139.7" y="15.24" rot="R270"/>
-<instance part="U$4" gate="MT1" x="139.7" y="25.4" rot="R270"/>
-<instance part="U$3" gate="MT1" x="139.7" y="35.56" rot="R270"/>
 <instance part="R5" gate="R" x="104.14" y="157.48"/>
 <instance part="R3" gate="R" x="104.14" y="132.08"/>
 <instance part="R4" gate="R" x="104.14" y="104.14"/>
@@ -8805,6 +8796,8 @@ B</text>
 <instance part="P+6" gate="1" x="160.02" y="81.28"/>
 <instance part="P+8" gate="1" x="160.02" y="129.54"/>
 <instance part="CON8" gate="J" x="165.1" y="124.46" rot="R180"/>
+<instance part="FID1" gate="FID1" x="142.24" y="5.08"/>
+<instance part="FID2" gate="FID1" x="142.24" y="12.7"/>
 </instances>
 <busses>
 </busses>
