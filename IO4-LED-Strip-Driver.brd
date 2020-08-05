@@ -45,7 +45,7 @@
 <layer number="49" name="Reference" color="48" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="13" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
@@ -159,24 +159,24 @@
 <plain>
 <text x="12.065" y="95.17" size="3.81" layer="21" font="vector" ratio="13" distance="49" rot="SR0">&gt;DRAWING_NAME</text>
 <text x="93.345" y="80.25" size="1.27" layer="21" font="vector" ratio="10">V1.0</text>
-<text x="9.033" y="13.1318" size="1.778" layer="52" rot="MR180">Made in the PCR, Coast Division, NMRA</text>
-<text x="91.0418" y="11.7152" size="1.4224" layer="52" font="vector" ratio="15" rot="MR0">www. SP Coast .com</text>
-<text x="87.0513" y="60.7421" size="1.778" layer="52" font="vector" rot="MR0">Model Railroading
+<text x="9.033" y="13.1318" size="1.778" layer="22" rot="MR180">Made in the PCR, Coast Division, NMRA</text>
+<text x="91.0418" y="11.7152" size="1.4224" layer="22" font="vector" ratio="15" rot="MR0">www. SP Coast .com</text>
+<text x="87.0513" y="60.7421" size="1.778" layer="22" font="vector" rot="MR0">Model Railroading
 is fun!</text>
 <text x="70.51799375" y="46.622509375" size="1.4224" layer="21" font="vector" ratio="10">Open Source</text>
 <text x="70.91499375" y="44.447759375" size="1.4224" layer="21" font="vector" ratio="10">Hardware</text>
-<wire x1="3.953" y1="27.305" x2="11.573" y2="66.802" width="3.81" layer="52"/>
+<wire x1="3.953" y1="27.305" x2="11.573" y2="66.802" width="3.81" layer="22"/>
 <text x="89.37625" y="12.16025" size="1.27" layer="21" font="vector" rot="R180">+12VDC @5A</text>
 <text x="93.810028125" y="78.18264375" size="2.54" layer="21" font="vector" ratio="15" rot="R270">&gt;DRAWING_NAME</text>
-<wire x1="0" y1="60.96" x2="100.33" y2="46.99" width="2.1844" layer="52"/>
-<wire x1="0" y1="35.56" x2="100.33" y2="21.59" width="2.1844" layer="52"/>
-<wire x1="24.273" y1="23.495" x2="29.353" y2="64.262" width="3.81" layer="52"/>
-<wire x1="44.593" y1="20.955" x2="47.133" y2="61.722" width="3.81" layer="52"/>
-<wire x1="64.913" y1="18.415" x2="69.993" y2="59.182" width="3.81" layer="52"/>
-<wire x1="85.233" y1="15.875" x2="92.853" y2="55.372" width="3.81" layer="52"/>
+<wire x1="0" y1="60.96" x2="100.33" y2="46.99" width="2.1844" layer="22"/>
+<wire x1="0" y1="35.56" x2="100.33" y2="21.59" width="2.1844" layer="22"/>
+<wire x1="24.273" y1="23.495" x2="29.353" y2="64.262" width="3.81" layer="22"/>
+<wire x1="44.593" y1="20.955" x2="47.133" y2="61.722" width="3.81" layer="22"/>
+<wire x1="64.913" y1="18.415" x2="69.993" y2="59.182" width="3.81" layer="22"/>
+<wire x1="85.233" y1="15.875" x2="92.853" y2="55.372" width="3.81" layer="22"/>
 <text x="13.393" y="82.229" size="2.54" layer="21" font="vector" ratio="15" rot="SR0">RGB</text>
 <text x="73.337" y="82.229" size="2.54" layer="21" font="vector" ratio="15" rot="SR0">White</text>
-<text x="90.8613" y="73.4421" size="1.778" layer="52" font="vector" rot="MR0">4x channels: RGB + White
+<text x="90.8613" y="73.4421" size="1.778" layer="22" font="vector" rot="MR0">4x channels: RGB + White
 Two connectors for driving Left and Right strings
 Each string can be up to 2.5m</text>
 <text x="9.906" y="79.248" size="1.778" layer="21" font="vector">B</text>
@@ -185,15 +185,15 @@ Each string can be up to 2.5m</text>
 <text x="25.146" y="79.248" size="1.778" layer="21" font="vector">+</text>
 <text x="75.946" y="79.248" size="1.778" layer="21" font="vector">W</text>
 <text x="81.026" y="79.248" size="1.778" layer="21" font="vector">+</text>
-<text x="32.81499375" y="53.972759375" size="1.4224" layer="21" font="vector" ratio="10">LED1</text>
-<text x="34.08499375" y="53.972759375" size="1.4224" layer="21" font="vector" ratio="10">LED5</text>
-<text x="16.30499375" y="53.972759375" size="1.4224" layer="21" font="vector" ratio="10">LED6</text>
-<text x="6.14499375" y="53.972759375" size="1.4224" layer="21" font="vector" ratio="10">LED7</text>
+<text x="63.70500625" y="50.167240625" size="1.4224" layer="21" font="vector" ratio="10" rot="R180">LED1</text>
+<text x="39.57500625" y="50.167240625" size="1.4224" layer="21" font="vector" ratio="10" rot="R180">LED2</text>
+<text x="21.79500625" y="50.167240625" size="1.4224" layer="21" font="vector" ratio="10" rot="R180">LED3</text>
+<text x="10.36500625" y="50.167240625" size="1.4224" layer="21" font="vector" ratio="10" rot="R180">LED4</text>
 <text x="88.10625" y="15.33525" size="2.54" layer="21" font="vector" ratio="20" rot="R180">-  +</text>
 <text x="86.83625" y="31.84525" size="2.54" layer="21" font="vector" ratio="20" rot="R180">-  +</text>
 <text x="82.55" y="91.68" size="2.54" layer="21" font="vector" ratio="10">V1.0</text>
-<text x="89.535" y="93.9" size="3.81" layer="22" font="vector" ratio="13" distance="49" rot="SMR0">IO4 LED Strip Driver</text>
-<text x="89.535" y="82.47" size="3.81" layer="22" font="vector" ratio="13" distance="49" rot="SMR0">IO4 LED Strip Driver</text>
+<text x="89.535" y="93.9" size="3.81" layer="22" font="vector" ratio="13" distance="49" rot="SMR0">&gt;DRAWING_NAME</text>
+<text x="89.535" y="82.47" size="3.81" layer="22" font="vector" ratio="13" distance="49" rot="SMR0">&gt;DRAWING_NAME</text>
 <text x="92.04200625" y="31.482490625" size="1.016" layer="21" font="vector" ratio="10" rot="R180">SCL</text>
 <text x="92.04200625" y="28.942490625" size="1.016" layer="21" font="vector" ratio="10" rot="R180">SDA</text>
 <text x="92.04200625" y="26.402490625" size="1.016" layer="21" font="vector" ratio="10" rot="R180">+5v</text>
@@ -201,7 +201,7 @@ Each string can be up to 2.5m</text>
 <text x="90.565" y="68.58" size="1.016" layer="21" font="vector" ratio="10" rot="R90">2020.08</text>
 <text x="88.025" y="66.04" size="1.27" layer="21" font="vector" ratio="10" rot="R90">John Plocher</text>
 <text x="75.02525" y="12.22375" size="1.27" layer="21" font="vector" rot="R90">Power for LEDS</text>
-<text x="93.0598" y="37.0668" size="1.4224" layer="52" font="vector" ratio="15" rot="MR277">Go Bears!</text>
+<text x="93.0598" y="37.0668" size="1.4224" layer="22" font="vector" ratio="15" rot="MR277">Go Bears!</text>
 <text x="38.793" y="82.229" size="2.54" layer="21" font="vector" ratio="15" rot="SR0">RGB</text>
 <text x="35.306" y="79.248" size="1.778" layer="21" font="vector">B</text>
 <text x="40.386" y="79.248" size="1.778" layer="21" font="vector">G</text>
