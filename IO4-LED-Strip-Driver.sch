@@ -8967,20 +8967,21 @@ Standard 8.5x11 US Letter frame</description>
 <plain>
 <text x="149.86" y="25.4" size="3.81" layer="97">IO4 LED Strip Driver</text>
 <text x="152.908" y="6.35" size="3.81" layer="97">John Plocher</text>
-<text x="235.458" y="6.604" size="3.81" layer="97">1.0</text>
-<text x="147.32" y="38.1" size="1.6764" layer="102">Drives 2x RGB strips and 2x White strips with a 12v/15A power supply
-(For backdrop and valence controlled lighting)</text>
+<text x="235.458" y="6.604" size="3.81" layer="97">1.1</text>
+<text x="139.7" y="38.1" size="1.6764" layer="102">Drives 2x RGB strips and 2x White strips with a 12v/15A power supply
+(For backdrop and valence controlled lighting)
+V1.1 - LED Strips are GRB, not RGB - changed connector mapping to match</text>
 <text x="147.32" y="118.11" size="2.54" layer="91">+
-R
 G
+R
 B</text>
 <text x="147.32" y="73.66" size="2.54" layer="91">+
 W</text>
 <text x="172.72" y="73.66" size="2.54" layer="91">+
 W</text>
 <text x="172.72" y="118.11" size="2.54" layer="91">+
-R
 G
+R
 B</text>
 </plain>
 <instances>
@@ -9150,36 +9151,36 @@ B</text>
 </net>
 <net name="R" class="0">
 <segment>
-<pinref part="CON3" gate="J" pin="2"/>
-<wire x1="134.62" y1="124.46" x2="132.08" y2="124.46" width="0.1524" layer="91"/>
-<label x="132.08" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="Q3" gate="Q" pin="D"/>
 <wire x1="114.3" y1="149.86" x2="116.84" y2="149.86" width="0.1524" layer="91"/>
 <label x="116.84" y="149.86" size="1.016" layer="95" xref="yes"/>
 </segment>
-<segment>
-<pinref part="CON8" gate="J" pin="2"/>
-<wire x1="160.02" y1="124.46" x2="157.48" y2="124.46" width="0.1524" layer="91"/>
-<label x="157.48" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="G" class="0">
 <segment>
 <pinref part="CON3" gate="J" pin="3"/>
 <wire x1="134.62" y1="121.92" x2="132.08" y2="121.92" width="0.1524" layer="91"/>
 <label x="132.08" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
+<pinref part="CON8" gate="J" pin="3"/>
+<wire x1="160.02" y1="121.92" x2="157.48" y2="121.92" width="0.1524" layer="91"/>
+<label x="157.48" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="G" class="0">
+<segment>
 <pinref part="Q2" gate="Q" pin="D"/>
 <wire x1="114.3" y1="121.92" x2="116.84" y2="121.92" width="0.1524" layer="91"/>
 <label x="116.84" y="121.92" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CON8" gate="J" pin="3"/>
-<wire x1="160.02" y1="121.92" x2="157.48" y2="121.92" width="0.1524" layer="91"/>
-<label x="157.48" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="CON3" gate="J" pin="2"/>
+<wire x1="134.62" y1="124.46" x2="132.08" y2="124.46" width="0.1524" layer="91"/>
+<label x="132.08" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="CON8" gate="J" pin="2"/>
+<wire x1="160.02" y1="124.46" x2="157.48" y2="124.46" width="0.1524" layer="91"/>
+<label x="157.48" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="B" class="0">
