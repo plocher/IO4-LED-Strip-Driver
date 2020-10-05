@@ -8942,21 +8942,21 @@ Standard 8.5x11 US Letter frame</description>
 <part name="Q1" library="SPCoast" deviceset="MOSFET-N-*-?" device="SO8" value="DMN4468"/>
 <part name="Q7" library="SPCoast" deviceset="MOSFET-N-*-?" device="SO8" value="DMN4468"/>
 <part name="V29" library="supply2" deviceset="GND" device=""/>
-<part name="CON3" library="SPCoast" deviceset="CONNECTOR-M04" device="5.08"/>
+<part name="CON3" library="SPCoast" deviceset="CONNECTOR-M04" device="5.08" value="0.156"/>
 <part name="POWER" library="SPCoast" deviceset="CONNECTOR-M02" device="MSTBA2"/>
 <part name="R5" library="SPCoast" deviceset="R*" device="0603-RES" value="10k"/>
 <part name="R3" library="SPCoast" deviceset="R*" device="0603-RES" value="10k"/>
 <part name="R4" library="SPCoast" deviceset="R*" device="0603-RES" value="10k"/>
 <part name="R9" library="SPCoast" deviceset="R*" device="0603-RES" value="10k"/>
-<part name="CON1" library="SPCoast" deviceset="CONNECTOR-IO4" device="INV"/>
+<part name="CON1" library="SPCoast" deviceset="CONNECTOR-IO4" device="INV" value="RJ12/6"/>
 <part name="V1" library="supply2" deviceset="GND" device=""/>
 <part name="V2" library="supply2" deviceset="GND" device=""/>
-<part name="CON6" library="SPCoast" deviceset="CONNECTOR-M02" device="MSTBA2"/>
+<part name="CON6" library="SPCoast" deviceset="CONNECTOR-M02" device="MSTBA2" value="0.156"/>
 <part name="P+5" library="SPCoast" deviceset="+12V" device=""/>
-<part name="CON7" library="SPCoast" deviceset="CONNECTOR-M02" device="MSTBA2"/>
+<part name="CON7" library="SPCoast" deviceset="CONNECTOR-M02" device="MSTBA2" value="0.156"/>
 <part name="P+6" library="SPCoast" deviceset="+12V" device=""/>
 <part name="P+8" library="SPCoast" deviceset="+12V" device=""/>
-<part name="CON8" library="SPCoast" deviceset="CONNECTOR-M04" device="5.08"/>
+<part name="CON8" library="SPCoast" deviceset="CONNECTOR-M04" device="5.08" value="0.156"/>
 <part name="FID-UL" library="SPCoast" deviceset="FIDUCIAL" device=""/>
 <part name="FID-LR" library="SPCoast" deviceset="FIDUCIAL" device=""/>
 <part name="C1" library="SPCoast" deviceset="CAP*" device="0603" value="10uF"/>
