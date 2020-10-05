@@ -8943,7 +8943,7 @@ Standard 8.5x11 US Letter frame</description>
 <part name="Q7" library="SPCoast" deviceset="MOSFET-N-*-?" device="SO8" value="DMN4468"/>
 <part name="V29" library="supply2" deviceset="GND" device=""/>
 <part name="CON3" library="SPCoast" deviceset="CONNECTOR-M04" device="5.08" value="0.156"/>
-<part name="POWER" library="SPCoast" deviceset="CONNECTOR-M02" device="MSTBA2"/>
+<part name="POWER" library="SPCoast" deviceset="CONNECTOR-M02" device="MSTBA2" value="0.156"/>
 <part name="R5" library="SPCoast" deviceset="R*" device="0603-RES" value="10k"/>
 <part name="R3" library="SPCoast" deviceset="R*" device="0603-RES" value="10k"/>
 <part name="R4" library="SPCoast" deviceset="R*" device="0603-RES" value="10k"/>
